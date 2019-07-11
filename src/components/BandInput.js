@@ -1,6 +1,6 @@
 // Add BandInput component
 import React, { Component } from 'react'
-import { connect } from 'react-redux';
+import { Connect } from 'react-redux';
 import { addBand } from '../actions/Band';
 
 class BandInput extends Component {
@@ -45,4 +45,5 @@ const mapDispatchToProps = (dispatch) => {
 
 
 
-export default connect(null,mapDispatchToProps)(BandInput)
+// export default connect(null,mapDispatchToProps)(BandInput)
+export default BandInput
